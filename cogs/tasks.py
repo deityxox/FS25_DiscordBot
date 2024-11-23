@@ -177,11 +177,11 @@ class Tasks(commands.Cog):
             notification_channel = self.bot.get_channel(PLAYER_NOTIFICATIONS_CHANNEL_ID)
             if notification_channel:
                 for player in joined_players:
-                    await notification_channel.send(f"`👨🏼‍🌾  {player} **Giriş Yaptı:**`")
-                    print(f"`👨🏼‍🌾  {player} **Giriş Yaptı:**`")
+                    await notification_channel.send(f"👨🏼‍🌾**`  {player}`** `Giriş Yaptı`")
+                    print(f"👨🏼‍🌾**`  {player}`** `Giriş Yaptı`")
                 for player in left_players:
-                    await notification_channel.send(f"`👨🏼‍🌾   {player} **Çıkış Yaptı:**`")
-                    print(f"`👨🏼‍🌾  {player} **Çıkış Yaptı:**`")
+                    await notification_channel.send(f"👨🏼‍🌾**`  {player}`** `Çıkış Yaptı`")
+                    print(f"👨🏼‍🌾**`  {player}`** `Çıkış Yaptı`")
 
             # Update the cached player list
             self.previous_players = current_players
