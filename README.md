@@ -3,7 +3,8 @@
 A customizable Discord bot designed by [IceEagle132](https://github.com/IceEagle132/Farming-Simulator-25-Discord-Bot) to provide crop price history, best prices, and live server updates for Farming Simulator 25 players.
 
 **Optimized and more specs by [me](https://github.com/deityxox)**
- Add Me on Discord if you have any issues: **ozguro**
+ 
+ - Add Me on Discord if you have any issues: **ozguro**
 
 ---
 
